@@ -1,0 +1,5 @@
+print("your mail id is : ")
+email = input()
+c=email.index('@')
+print("Name : ",email[0:c])
+print("domain : ",email[c:])
